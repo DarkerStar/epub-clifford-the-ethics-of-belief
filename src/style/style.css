@@ -1,0 +1,90 @@
+
+body {
+  margin: 2.5em;
+}
+
+section {
+  overflow: auto;
+}
+
+section > h1 {
+  margin: 5em 0 1em;
+  text-align: center;
+  font-size: 150%;
+  font-variant: small-caps;
+  font-weight: normal;
+}
+
+p {
+  line-height: 1.5em;
+  margin: 0;
+  text-align: justify;
+  text-indent: 2.5em;
+}
+/*
+section > p:first-of-type {
+  text-indent: 0;
+}*/
+
+blockquote {
+  font-size: 95%;
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+blockquote::before {
+  content: '“';
+  display: inline-block;
+  margin: 0 -0.3em 0 2.5rem;
+}
+
+blockquote::after {
+  content: '”';
+  display: inline-block;
+  margin-left: -0.3em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.first-letter {
+  display: block;
+  line-height: 1em;
+  float: left;
+  font-size: 300%;
+  font-weight: bold;
+  margin: 0 0.5rem 0 -2.5rem;
+}
+
+.first-words {
+  text-transform: uppercase;
+  margin-left: -3rem;
+}
+
+aside {
+  border: 1px dashed black;
+  clear: right;
+  float: right;
+  font-size: 95%;
+  margin: 0.5em 0 0.5em 1em;
+  padding: 0.5em;
+  width: 30%;
+}
+
+/* Table of contents ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#toc > h1 {
+  display: none;
+}
+
+#toc ol {
+  margin: 5em 0 0;
+}
+
+#toc li {
+  list-style-type: upper-roman;
+  font-variant: small-caps;
+  margin: 1em 0 0;
+}
+
