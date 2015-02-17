@@ -36,10 +36,6 @@ XXXX-XX-XX  Mark A. Gibbs  <indi.in.the.wired@gmail.com>
      
      * src/text/chapter-03.xhtml: New EPUB 3 content document.
      
-     * src/text/chapter-04.xhtml: New EPUB 3 content document.
-     
-     * src/text/chapter-05.xhtml: New EPUB 3 content document.
-     
      * src/text/colophon.xhtml: New EPUB 3 content document.
      
      * src/style/style.css: New EPUB 3 content document.
