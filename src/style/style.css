@@ -1,13 +1,12 @@
 
 body {
+  line-height: 1.5;
   margin: 2.5em;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  text-align: justify;
 }
 
-section {
-  overflow: auto;
-}
-
-section > h1 {
+h1 {
   margin: 5em 0 1em;
   text-align: center;
   font-size: 150%;
@@ -16,18 +15,13 @@ section > h1 {
 }
 
 p {
-  line-height: 1.5em;
   margin: 0;
-  text-align: justify;
   text-indent: 2.5em;
 }
-/*
-section > p:first-of-type {
-  text-indent: 0;
-}*/
 
 blockquote {
   font-size: 95%;
+  line-height: 1.1;
   margin: 1rem 0;
   text-align: justify;
 }
@@ -49,6 +43,13 @@ a {
   text-decoration: none;
 }
 
+a:hover { color: red; }
+
+abbr {
+  border: none;
+  text-decoration: none;
+}
+
 .first-letter {
   display: block;
   line-height: 1em;
@@ -63,18 +64,7 @@ a {
   margin-left: -3rem;
 }
 
-aside {
-  border: 1px dashed black;
-  clear: right;
-  float: right;
-  font-size: 95%;
-  margin: 0.5em 0 0.5em 1em;
-  padding: 0.5em;
-  width: 30%;
-}
-
-/* Table of contents ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-#toc > h1 {
+#toc h1 {
   display: none;
 }
 
@@ -88,3 +78,22 @@ aside {
   margin: 1em 0 0;
 }
 
+#colophon .licence {
+  margin: 2em 0;
+  overflow: auto;
+  padding-left: 100px;
+  text-indent: 0;
+}
+
+#colophon .licence .mark {
+  float: left;
+  margin-left: -100px;
+}
+
+aside.footnote {
+  font-size: 85%;
+  line-height: 1.5em;
+  margin: 1rem 0;
+  text-align: justify;
+  text-indent: 1.5rem;
+}
