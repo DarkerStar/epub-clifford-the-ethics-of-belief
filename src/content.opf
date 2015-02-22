@@ -17,11 +17,11 @@
 		
 		<dc:language>en</dc:language>
 		
-		<meta property="dcterms:modified">2015-02-10T00:00:00Z</meta>
+		<meta property="dcterms:modified">2015-02-21T00:00:00Z</meta>
 		
 		<dc:publisher>The Contemporary Review Company</dc:publisher>
-		<meta property="dcterms:dateCopyrighted">1866</meta>
-		<dc:date>1866</dc:date>
+		<meta property="dcterms:dateCopyrighted">1877</meta>
+		<dc:date>1877</dc:date>
 		
 		<!--dc:source id="src-id">urn:isbn:???</dc:source>
 		<meta refines="#src-id" property="identifier-type" scheme="onix:codelist5">15</meta>

@@ -4,7 +4,7 @@
 
 "The Ethics of Belief" was originally presented to the Metaphysical Society by
 William Kingdon Clifford in 1867, and finally published in Contemporary Review
-magazine in 1877. It's pugnacious, unapologetic criticism of faith caused quite
+magazine in 1877. Its pugnacious, unapologetic criticism of faith caused quite
 a stir amongst the learned elite when it came out, and it continues to be
 discussed to this day.
 

@@ -4,9 +4,9 @@
 
 
 The original text of "The Ethics of Belief", by William Kingdon Clifford, was
-published in 1861. The source for this version is the 7th edition, published in
-1879. It has been identified by Mark A. Gibbs as free of known copyright
-restrictions.
+presented in 1876. The source for this version is the first published edition,
+published in 1877. It has been identified by Mark A. Gibbs as free of known
+copyright restrictions.
 
 The makefile `Makefile` is the
 [EPUB building makefile](https://github.com/DarkerStar/epub-build-makefile),
