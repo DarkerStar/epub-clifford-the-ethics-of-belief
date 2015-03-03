@@ -1,3 +1,13 @@
+Version 0.2.0-alpha ----------------------------------------------- [2015-03-02]
+
+*   Added description tag to metadata.
+
+*   Changed publishing information to reflect the publication of the book rather
+    than the original paper (as it's supposed to be according to the EPUB spec).
+
+*   Books's subject list now uses BISAC categories.
+
+
 Version 0.1.0-alpha ----------------------------------------------- [2015-02-21]
 
 *   "The Ethics of Belief" by William Kingdon Clifford EPUB ebook first release.
