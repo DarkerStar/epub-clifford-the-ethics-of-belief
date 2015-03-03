@@ -15,19 +15,24 @@
 		<meta refines="#editor" property="file-as">Gibbs, Mark A.</meta>
 		<meta refines="#editor" property="role" scheme="marc:relators">edt</meta>
 		
+		<dc:description>In 1876, Clifford presented this essay to the Metaphysical Society, and it immediately caused a storm of controversy among the intelligentsia of the late 19th century. In clear and uncompromising terms, Clifford throws down the gauntlet, challenging everyone who holds beliefs that are not based on reason or evidence. To his day this essay is still used to introduce the topic of ethics and epistemology.</dc:description>
+		
 		<dc:language>en</dc:language>
 		
-		<meta property="dcterms:modified">2015-02-21T00:00:00Z</meta>
+		<!-- Original publisher: The Contemporary Review Company -->
+		<meta property="dcterms:dateCopyrighted">1876-04-11</meta>
 		
-		<dc:publisher>The Contemporary Review Company</dc:publisher>
-		<meta property="dcterms:dateCopyrighted">1877</meta>
-		<dc:date>1877</dc:date>
+		<dc:publisher>Indi’s ebook collection</dc:publisher>
+		<dc:date>2015-02-21</dc:date>
 		
-		<!--dc:source id="src-id">urn:isbn:???</dc:source>
-		<meta refines="#src-id" property="identifier-type" scheme="onix:codelist5">15</meta>
-		<meta refines="#src-id" property="source-of">pagination</meta-->
-		
+		<!-- BISAC subject headings -->
 		<dc:subject>Philosophy</dc:subject>
+		<dc:subject><!-- PHILOSOPHY / -->Epistemology</dc:subject>
+		<dc:subject><!-- PHILOSOPHY / Essays-->Philosophy essays</dc:subject>
+		<dc:subject><!-- PHILOSOPHY / -->Ethics &amp; Moral Philosophy</dc:subject>
+		<dc:subject><!-- PHILOSOPHY / Movements / -->Empiricism</dc:subject>
+		
+		<meta property="dcterms:modified">2015-03-03T00:00:00Z</meta>
 		
 		<meta name="cover" content="image-cover"/>
 	</metadata>
@@ -54,13 +59,13 @@
 		<item id="ncx" href="toc.ncx"   media-type="application/x-dtbncx+xml"                 />
 	</manifest>
 	<spine toc="ncx">
-		<itemref idref="cover"                                     linear="no"/>
-		<itemref idref="title-page" properties="page-spread-right"            />
-		<itemref idref="toc"                                       linear="no"/>
-		<itemref idref="chapter-01" properties="page-spread-right"            />
-		<itemref idref="chapter-02" properties="page-spread-right"            />
-		<itemref idref="chapter-03" properties="page-spread-right"            />
-		<itemref idref="colophon"   properties="page-spread-right"            />
+		<itemref idref="cover"      linear="no"/>
+		<itemref idref="title-page"            />
+		<itemref idref="toc"        linear="no"/>
+		<itemref idref="chapter-01"            />
+		<itemref idref="chapter-02"            />
+		<itemref idref="chapter-03"            />
+		<itemref idref="colophon"              />
 	</spine>
 	<guide>
 		<reference type="cover"      title="Cover"                href="text/cover.xhtml"     />
